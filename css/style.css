@@ -38,7 +38,6 @@
   margin-top: 90px;
 }
 
-
 .form-container input {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -55,7 +54,7 @@
   color: #707070;
 }
 
-.error{
+.error {
   display: flex;
   justify-content: center;
   align-items: center;
