@@ -18,7 +18,7 @@
   padding-left: 25px;
   padding-right: 25px;
   margin-bottom: 80px;
-
+  width: 50%;
   height: 100%;
 }
 
@@ -38,6 +38,7 @@
   margin-top: 90px;
 }
 
+
 .form-container input {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -52,6 +53,15 @@
 
 .form-container label {
   color: #707070;
+}
+
+.error{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 12px;
+  margin-bottom: 20px;
 }
 
 img {

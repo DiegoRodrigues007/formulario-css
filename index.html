@@ -15,15 +15,47 @@
           <p>Seja bem-vindo(a) a nossa plataforma</p>
         </div>
 
-        <form class="form-container">
+        <form   class="form-container">
           <label for="nome">Nome</label>
-          <input type="text" name="nome" id="nome" />
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            required
+            minlength="3"
+            maxlength="40"
+          />
+          <div class="error">
+            <p class="text-error"></p>
+          </div>
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
-          <label for="senha">Senha</label>
-          <input type="password" name="senha" id="senha" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            minlength="4"
+            maxlength="35"
+          />
+          <div class="error">
+            <p class="text-error"></p>
+          </div>
 
-          <button>Enviar</button>
+          <label for="senha">Senha</label>
+          <input
+            type="password"
+            name="senha"
+            id="senha"
+            required
+            minlength="8"
+            maxlength="40"
+          />
+          <div class="error">
+            <p class="text-error"></p>
+          </div>
+
+          <button id="btn">Enviar</button>
+          
         </form>
       </div>
       <div>
