@@ -1,6 +1,6 @@
 # Formulário
 
-Criei um formulário bem simples utilizando HTML5, CSS3 e JavaScript.
+Criei um formulário bem simples utilizando HTML5,CSS3,JavaScript e Responsividade.
 
 O foco deste projeto foi aprimorar as validações com JavaScript.
 
